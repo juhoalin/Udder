@@ -20,5 +20,8 @@ class ViewController: UIViewController {
         print("Hello")
     }
     
+    override func viewLayoutMarginsDidChange() {
+        print("hey")
+    }
 }
 
